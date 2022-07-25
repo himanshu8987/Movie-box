@@ -1,0 +1,49 @@
+.signinbody_container{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.signinbody_form{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(189, 216, 207);
+    padding: 50px 45px;
+}
+.signinbody_title{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.signinbody_form > input, .signinbody_form  > button{
+    margin: 10px 0px;
+
+}
+.signinbody_form > input{
+    height:40px;
+    border-radius: 10px;
+    border: none;
+    padding: 0 10px;
+    width: 325px;
+    background-color: rgb(151, 222, 198);
+}
+.signinbody_form > button{
+    height: 40px;
+    background-color: red;
+    font-weight: 750;
+    color: beige;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.signinbody_text{
+    text-align: center;
+    margin-top: 15px;
+    color: black;
+
+}
+.signinbody_text > span{
+    font-weight: 750;
+    cursor: pointer;
+
+}

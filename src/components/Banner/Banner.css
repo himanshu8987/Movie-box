@@ -1,0 +1,43 @@
+.banner{
+    position: relative;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: blanchedalmond;
+    z-index: -1;
+}
+.banner_contents{
+    width: fit-content;
+    padding-left: 43px;
+
+}
+.banner_contents > h3{
+    padding-top: 20px;
+    width: 500px;
+    font-size: 0.9rem;
+    font-weight: bolder;
+}
+.banner_buttons{
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+    padding-top: 22px;
+}
+.banner_buttons > button{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 20px;
+    background-color: transparent;
+    color: azure;
+    outline: none;
+    border: none;
+    background-color: cadetblue;
+    font-size: 0.8rem;
+    font-weight: bolder;
+}
+.banner_buttons > button:hover{
+    background-color: beige;
+    color: red;
+    cursor: pointer;
+}
